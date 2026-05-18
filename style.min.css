@@ -686,9 +686,4 @@ grid-template-columns:1fr;
   .job-post .table-wrapper { overflow-x: auto; }
   .job-post .lazy-section { content-visibility: auto; contain-intrinsic-size: auto 500px; }
 
-.adsbygoogle{
-display:block!important;
-max-width:100%!important;
-overflow:hidden!important;
-margin:20px auto!important;
-}
+
