@@ -1,3 +1,84 @@
+/*
+<Group description="Theme Color">
+<Variable name="themeColor" description="Address bar color" type="color" default="#fefefe" value="#fefefe"/>
+</Group>
+
+<Group description="Basic colors and Background">
+<Variable name="head.color" description="Heading colors" type="color" default="#262d3d" value="#262d3d"/>
+<Variable name="body.color" description="Body colors" type="color" default="#48525c" value="#48525c"/>
+<Variable name="body.colorAlt" description="Alternative body colors" type="color" default="#767676" value="#767676"/>
+<Variable name="body.bgColor" description="Main page bakground color" type="color" default="#fefefe" value="#fefefe"/>
+<Variable name="link.color" description="Link colors" type="color" default="#204ecf" value="#204ecf"/>
+<Variable name="link.bgColor" description="Button link colors" type="color" default="#204ecf" value="#204ecf"/>
+</Group>
+
+<Group description="Icon colors">
+<Variable name="icon.color" description="Icon colors" type="color" default="#48525c" value="#48525c"/>
+<Variable name="icon.colorAlt" description="Alternative icon colors" type="color" default="#767676" value="#455065"/>
+<Variable name="icon.colorSec" description="Second alternative icon colors" type="color" default="#767676" value="#767676"/>
+</Group>
+
+<Group description="Header colors, background and height">
+<Variable name="header.height" description="Header height" type="length" max="70px" default="60px" value="60px"/>
+<Variable name="header.text" description="Header text colors" type="color" default="#262d3d" value="#000000"/>
+<Variable name="header.textAlt" description="Alternative text color" type="color" default="#767676" value="#767676"/>
+<Variable name="header.bgColor" description="Header background color" type="color" default="#fefefe" value="#EEEEEE"/>
+<Variable name="header.bgSearch" description="Search block background color" type="color" default="#fafafc" value="#fafafc"/>
+<Variable name="header.borderColor" description="Header border color" type="color" default="#f1f1f0" value="#f1f1f0"/>
+<Variable name="header.icon" description="Icon colors" type="color" default="#262d3d" value="#262d3d"/>
+<Variable name="header.iconAlt" description="Alternative icon colors" type="color" default="#48525c" value="#48525c"/>
+</Group>
+
+<Group description="Navbar colors">
+<Variable name="nav.text" description="Navbar text colors" type="color" default="#262d3d" value="#262d3d"/>
+<Variable name="nav.textAlt" description="Alternative text color" type="color" default="#48525c" value="#48525c"/>
+<Variable name="nav.bg" description="Background color" type="color" default="#fefefe" value="#fefefe"/>
+<Variable name="nav.mobileBg" description="Mobile background color" type="color" default="#fefefe" value="#fefefe"/>
+<Variable name="nav.mobileBorder" description="Mobile border color" type="color" default="#f1f1f0" value="#f1f1f0"/>
+</Group>
+
+<Group description="Content background">
+<Variable name="content.bg" description="Content background color" type="color" default="#fefefe" value="#fefefe"/>
+</Group>
+
+<Group description="Content max width">
+<Variable name="post.maxContent" description="Post max width" type="length" max="760px" default="720px" value="760px"/>
+<Variable name="page.maxContent" description="Page max width" type="length" max="900px" default="780px" value="900px"/>
+</Group>
+
+<Group description="Post font size">
+<Variable name="post.fontSize" description="Post font size" type="length" max="18px" default="16px" value="14px"/>
+</Group>
+
+<Group description="Footer colors and background">
+<Variable name="foot.text" description="Footer text colors" type="color" default="#48525c" value="#262d3d"/>
+<Variable name="foot.textAlt" description="Alternative text colors" type="color" default="#767676" value="#48525c"/>
+<Variable name="foot.bg" description="Background color" type="color" default="#f7f7f7" value="#EEEEEE"/>
+<Variable name="foot.icon" description="Footer icon color" type="color" default="#48525c" value="#262d3d"/>
+</Group>
+
+
+
+<Group description="(Do not edit) New Blogger comment required">
+<Variable name="body.background" description="Background" color="#505050" type="background" default="$(color) none repeat scroll center center"  value="$(color) url() no-repeat scroll center center"/>
+<Variable name="body.text.font" description="Font Blogger comment" type="font" default="&#39;Arial&#39;, sans-serif" value="normal 400 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="body.text.color" description="Color" type="color" default="#505050"  value="#505050"/>
+<Variable name="body.link.color" description="Link color" type="color" default="#262d3d"  value="#262d3d"/>
+<Variable name="posts.title.color" description="Post title color" type="color" default="#262d3d"  value="#262d3d"/>
+<Variable name="posts.text.color" description="Post text color" type="color" default="#48525c"  value="#48525c"/>
+<Variable name="posts.icons.color" description="Post info color" type="color" default="#262d3d" value="#48525c"/>
+<Variable name="posts.background.color" description="Post background color" type="color" default="#f7f7fc"  value="transparent"/>
+<Variable name="tabs.font" description="Font" type="font" default="&#39;Arial&#39;, sans-serif" value="normal 400 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="tabs.color" description="Text color" type="color" default="#4d4d4d"  value="#48525c"/>
+<Variable name="tabs.selected.color" description="Selected color" type="color" default="#fff"  value="#ffffff"/>
+<Variable name="tabs.overflow.background.color" description="Popup background color" type="color" default="$(posts.background.color)"  value="#ffffff"/>
+<Variable name="tabs.overflow.color" description="Popup text color" type="color" default="#48525c"  value="#48525c"/>
+<Variable name="tabs.overflow.selected.color" description="Popup selected color" type="color" default="#262d3d"  value="#262d3d"/>
+<Variable name="labels.background.color" description="Labels background color" type="color" default="#fff" value="#ffffff"/>
+<Variable name="blog.title.font" description="Blog title font" type="font" default="&#39;Arial&#39;, sans-serif" value="normal 400 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif"/>
+<Variable name="blog.title.color" description="Blog title color" type="color" default="#fff" value="#ffffff"/>
+</Group>
+*/
 /* Variable color */
 :root{
 --head-color: $(head.color) ;
