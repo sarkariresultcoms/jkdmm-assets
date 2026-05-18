@@ -1,3 +1,162 @@
+
+/* ===== JK SAFE UI ===== */
+
+.jk-trending{
+background:#fff3e0;
+border-top:2px solid red;
+border-bottom:2px solid red;
+padding:10px;
+font-size:14px;
+text-align:center;
+font-weight:bold;
+}
+
+.jk-trending a{
+margin:0 5px;
+text-decoration:none;
+}
+
+/* GRID */
+.jk-grid{
+display:grid;
+min-height:220px;
+grid-template-columns:repeat(3,1fr);
+gap:8px;
+padding:10px;
+}
+
+.jk-grid a{
+display:block;
+color:#000;
+padding:10px;
+text-decoration:none;
+font-weight:bold;
+border-radius:4px;
+font-size:14px;
+}
+
+.jk-grid a:hover{
+transform:scale(1.02);
+transition:0.2s;
+}
+
+.jk-grid a:nth-child(odd){background:#ff85ef;}
+.jk-grid a:nth-child(even){background:#85ff8f;}
+
+/* BOX */
+.jk-box{
+margin:10px;
+min-height:180px;
+background:#fff;
+border-radius:6px;
+}
+
+.jk-box h2{
+margin:0;
+background:#0d5c73;
+color:#fff;
+padding:10px;
+text-align:center;
+}
+
+.jk-box ul{
+list-style:none;
+padding:10px;
+margin:0;
+}
+
+.jk-box li{
+padding:6px 0;
+border-bottom:1px solid #eee;
+}
+
+/* COLUMNS */
+.jk-columns{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:10px;
+padding:10px;
+}
+
+/* BUTTON */
+.jk-more{
+display:block;
+text-align:center;
+padding:8px;
+background:#f1f1f1;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* BADGES */
+.jk-new{
+background:#d90429;
+color:#ffffff!important;
+font-size:11px;
+font-weight:700;
+padding:2px 6px;
+border-radius:3px;
+display:inline-block;
+margin-right:6px;
+}
+
+.jk-date{ color:#444!important; font-weight:600; }
+
+/* ===== NOTES ===== */
+
+.jk-subjects{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:10px;
+padding:10px;
+}
+
+.jk-subjects a{
+display:block;
+padding:10px;
+text-align:center;
+background:#ee7e0d;
+color:#fff;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+}
+
+.jk-sub-block{
+margin:10px;
+background:#fff;
+border-radius:6px;
+}
+
+.jk-sub-block h3{
+background:#eee;
+padding:8px;
+margin:0;
+}
+  
+.jk-links{
+padding:10px;
+text-align:center;
+}
+
+.jk-links a{
+margin:5px;
+display:inline-block;
+background:#eee;
+padding:8px;
+text-decoration:none;
+}
+
+.jk-links a:hover{
+background:#ddd;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+.jk-grid{grid-template-columns:repeat(2,1fr)}
+.jk-columns{grid-template-columns:1fr}
+.jk-subjects{grid-template-columns:repeat(2,1fr)}
+}
 /* Widget Blog Share */
 /* Share */
 .Blog .postShare{
