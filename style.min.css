@@ -1,3 +1,54 @@
+/* Widget Blog Share */
+/* Share */
+.Blog .postShare{
+margin:20px 0;
+padding:12px 0;
+border-top:1px solid rgba(0,0,0,.05);
+border-bottom:1px solid rgba(0,0,0,.05)
+}
+
+.Blog .shareContent{
+display:flex;
+align-items:center;
+gap:14px
+}
+
+.Blog .shareIcon a{
+display:flex;
+align-items:center;
+color:rgba(0,0,0,.6)
+}
+
+.Blog .shareIcon svg{
+width:18px;
+height:18px
+}
+/* Widget Blog Navigaton */
+.Blog .blogPager,
+.Blog .postNav{
+display:flex;
+justify-content:center;
+gap:10px;
+margin:40px 0;
+}
+
+.Blog .blogPager a,
+.Blog .postNav a{
+display:inline-block;
+padding:8px 14px;
+background:var(--link-bgColor);
+color:#fff;
+border-radius:2px;
+font-size:14px;
+}
+.Blog .blogPager > * svg{width:18px;height:18px;fill:#fefefe}
+.Blog .blogPager > *:before{content:attr(data-text);opacity:.8}
+.Blog .blogPager .moreLink{padding:10px 35px}
+.Blog .blogPager .newerLink:before, .Blog .blogPager .jsLoad:before{display:none}
+.Blog .blogPager .newerLink:after, .Blog .blogPager .jsLoad:after{content:attr(data-text);opacity:.8}
+.Blog .blogPager .newerLink{margin-right:auto} .Blog .blogPager .olderLink{margin-left:auto}
+.Blog .blogPager .noPost, .Blog .blogPager .current, .Blog .postNav .current{background-color:#f1f1f0;color:var(--body-altColor)}
+.Blog .blogPager .jsLoad svg{margin-right:10px}
 /* Widget Post Related */
 /* ===== RELATED POSTS ===== */
 
