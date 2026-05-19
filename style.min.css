@@ -685,5 +685,8 @@ grid-template-columns:1fr;
   .job-post ul { margin-bottom: 15px; }
   .job-post .table-wrapper { overflow-x: auto; }
   .job-post .lazy-section { content-visibility: auto; contain-intrinsic-size: auto 500px; }
-
+.deadlineDate{
+color:red;
+font-size:12px;
+}
 
