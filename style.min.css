@@ -663,7 +663,7 @@ min-height:280px;
   .job-post .alert-danger { background: #ffebee; border-left-color: #d32f2f; }
   .job-post .alert-info { background: #e3f2fd; border-left-color: #1e88e5; padding: 14px; border-radius: 8px; margin-bottom: 15px; }
   .job-post .img-wrapper { text-align: center; margin: 20px 0; }
-  .job-post .featured-image { width: 100%; max-width: 850px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+  .job-post .featured-image { width: 100%; max-width: 850px; border-radius: 12px; aspect-ratio:1200/630; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
   .job-post .flex-grid { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 15px; }
   .job-post .card { flex: 1; min-width: 150px; padding: 12px; border-radius: 8px; }
   .job-post .card-red { background: #fdecea; }
