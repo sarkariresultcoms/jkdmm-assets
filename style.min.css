@@ -619,7 +619,6 @@ footer .creditInner{
 flex-direction:column;
 align-items:flex-start;
 }
-
 }
 
 @media screen and (max-width:480px){
@@ -627,8 +626,11 @@ align-items:flex-start;
 footer .footerContent{
 grid-template-columns:1fr;
 }
+}
 
-
+.adsbygoogle{
+display:block;
+min-height:280px;
 }
 
   .blog-container { background:#ffffff;font-family:Segoe UI,Arial,sans-serif;line-height:1.8;margin:auto;max-width:900px;padding:20px; }
@@ -690,3 +692,9 @@ color:red;
 font-size:12px;
 }
 
+#sidebarTrending,
+#sidebarDeadline,
+#sidebarUpdates,
+#sidebarEditorial{
+min-height:250px;
+}
