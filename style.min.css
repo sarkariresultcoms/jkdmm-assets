@@ -780,9 +780,195 @@ color:red;
 font-size:12px;
 }
 
-#sidebarTrending,
-#sidebarDeadline,
-#sidebarUpdates,
-#sidebarEditorial{
-min-height:250px;
+/* ===== RESULT and ADMITCARD ===== */
+/* ==================================================
+   📝 jkdmm.in Blogger Global Stylesheet
+   ================================================== */
+
+/* Container & Typography settings */
+.post-body {
+  font-family: 'Outfit', 'Inter', sans-serif;
+  color: #334155;
+  line-height: 1.7;
+  max-width: 850px;
+  margin: 0 auto;
 }
+
+/* Headings */
+.post-body h2 {
+  font-size: 1.5rem;
+  color: #0f172a;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 8px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+.post-body h3 {
+  font-size: 1.25rem;
+  color: #1e293b;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+/* Featured Image */
+.post-featured-image {
+  width: 100%;
+  max-width: 850px;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Latest Update Banner */
+.latest-update-box {
+  background: #f0fdf4;
+  border-left: 5px solid #22c55e;
+  padding: 16px;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+}
+.latest-update-box h3 {
+  margin-top: 0;
+  color: #166534;
+  font-size: 1.1rem;
+}
+
+/* Click Boost Box / Highlight Callout */
+.click-boost-box {
+  background: #fffbeb;
+  border-left: 5px solid #f59e0b;
+  padding: 16px;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+  font-weight: 600;
+  color: #b45309;
+}
+
+/* Styled Table for Job/Result Details */
+.seo-table-wrapper {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+.seo-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.95rem;
+}
+.seo-table th {
+  background: #1e293b;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 16px;
+  border: 1px solid #334155;
+}
+.seo-table td {
+  padding: 12px 16px;
+  border: 1px solid #e2e8f0;
+}
+.seo-table tr:nth-child(even) {
+  background: #f8fafc;
+}
+.seo-table tr:hover {
+  background: #f1f5f9;
+}
+
+/* Buttons / Call to Action */
+.cta-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 2rem 0;
+}
+.btn-primary, .btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.btn-primary {
+  background: #2563eb;
+  color: #ffffff !important;
+}
+.btn-primary:hover {
+  background: #1d4ed8;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+.btn-secondary {
+  background: #e2e8f0;
+  color: #1e293b !important;
+  border: 1px solid #cbd5e1;
+}
+.btn-secondary:hover {
+  background: #cbd5e1;
+}
+
+/* Information Cards (e.g. Login details, Instructions) */
+.info-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 1.5rem 0;
+}
+.info-card h3 {
+  margin-top: 0;
+  color: #0f172a;
+}
+
+/* Related Updates Section */
+.related-updates {
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 2rem 0;
+}
+.related-updates h2 {
+  margin-top: 0;
+}
+.related-updates ul {
+  margin: 0;
+  padding-left: 20px;
+}
+.related-updates li {
+  margin-bottom: 8px;
+}
+.related-updates a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+.related-updates a:hover {
+  text-decoration: underline;
+}
+
+/* FAQs styling */
+.faq-container {
+  margin: 2rem 0;
+}
+.faq-item {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 16px 0;
+}
+.faq-question {
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+.faq-answer {
+  color: #475569;
+}
+
